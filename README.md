@@ -1,53 +1,51 @@
-# Phishing Website Detection by Machine Learning Techniques
+# Phishing Email Detection by Machine Learning Techniques
 
 ## Objective
-A phishing website is a common social engineering method that mimics trustful uniform emails and their URLs(Uniform Resource Locater). The objective of this project is to train machine learning models and deep neural nets on the dataset created to predict phishing emails. Both phishing and benign content of emails are gathered to form a dataset and from them required URL and email content-based features are extracted. The performance level of each model is measures and compared.
+A phishing email is a common social engineering method that mimics trustful uniform emails and their URLs(Uniform Resource Locater). The objective of this project is to train machine learning models and deep neural nets on the dataset created to predict phishing emails. Both phishing and benign content of emails are gathered to form a dataset and from them required URL and email content-based features are extracted. The performance level of each model is measures and compared.
 
 ## Data Collection
-The set of phishing URLs are collected from opensource service called **PhishTank**. This service provide a set of phishing URLs in multiple formats like csv, json etc. that gets updated hourly. To download the data: https://www.phishtank.com/developer_info.php. From this dataset, 5000 random phishing URLs are collected to train the ML models.
+The set of phishing emails are collected from opensource service called **ealvaradob**. This service provide a set of phishing URLs in multiple formats like csv, json etc. that gets updated hourly. To download the data: https:https://huggingface.co/datasets/ealvaradob/phishing-dataset/tree/main. From this dataset, 5000 random phishing emails and their links are collected to train the ML models.
 
-The legitimate URLs are obatined from the open datasets of the University of New Brunswick, https://www.unb.ca/cic/datasets/url-2016.html. This dataset has a collection of benign, spam, phishing, malware & defacement URLs. Out of all these types, the benign url dataset is considered for this project. From this dataset, 5000 random legitimate URLs are collected to train the ML models.
+The set of ligitimate emails are also obtained fron same opensource service.Some of them are also obtained from our(the team) personal emails.
 
-The above mentioned datasets are uploaded to the '[DataFiles](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/tree/master/DataFiles)' folder of this repository.
+
+The above mentioned datasets are uploaded to the '[DataFiles](  HYA DATSET HALNE GITHUB MA PUSH GAREKO )' folder of this repository.
 
 ## Feature Extraction
-The below mentioned category of features are extracted from the URL data:
+The below mentioned category of features are extracted from the  dataset:
 
-1.   Address Bar based Features <br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this category 9 features are extracted.
-2.   Domain based Features<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this category 4 features are extracted.
-3.   HTML & Javascript based Features<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this category 4 features are extracted.
-
-*The details pertaining to these features are mentioned in the [URL Feature Extraction.ipynb.](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/URL%20Feature%20Extraction.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/URL%20Feature%20Extraction.ipynb)*
-
-So, all together 17 features are extracted from the 10,000 URL dataset and are stored in '[5.urldata.csv](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/DataFiles/5.urldata.csv)' file in the DataFiles folder.<br>
-The features are referenced from the https://archive.ics.uci.edu/ml/datasets/Phishing+Websites.
+1. Label
+2. Email body
+3. URL links
+4. Sender email adress.
+5. Date of email send. 
 
 ## Models & Training
 
 Before stating the ML model training, the data is split into 80-20 i.e., 8000 training samples & 2000 testing samples. From the dataset, it is clear that this is a supervised machine learning task. There are two major types of supervised machine learning problems, called classification and regression.
 
-This data set comes under classification problem, as the input URL is classified as phishing (1) or legitimate (0). The supervised machine learning models (classification) considered to train the dataset in this project are:
+This data set comes under classification problem, as the input email is classified as phishing (1) or legitimate (0). The supervised machine learning models (classification) considered to train the dataset in this project are:
 
 * Decision Tree
 * Random Forest
-* Multilayer Perceptrons
-* XGBoost
-* Autoencoder Neural Network
-* Support Vector Machines
+* Logistic Regression
+* Naïve Bayes
+* Support Vector Machines (SVM)
 
-All these models are trained on the dataset and evaluation of the model is done with the test dataset. The elaborate details of the models & its training are mentioned in [Phishing Website Detection_Models & Training.ipynb](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/Phishing%20Website%20Detection_Models%20%26%20Training.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/Phishing%20Website%20Detection_Models%20%26%20Training.ipynb)
+
+
+
+All these models are trained on the dataset and evaluation of the model is done with the test dataset. The elaborate details of the models & its training are mentioned in 
+(HYA GITHUB ko TRAINED MODEL KO LINK HALNE)
 
 ## Presentation
 
-The short video presentaion for this project is @ https://youtu.be/I1refTZp-pg. <br>
-The slide presentaion used in this video is [Phishing Website Detection by Machine Learning Techniques Presentation.pdf](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/Phishing%20Website%20Detection%20by%20Machine%20Learning%20Techniques%20Presentation.pdf)
+
+The presentation is given in (HYA PRESENTATION KO LINK HALNE)
 
 ## End Results
-From the obtained results of the above models, XGBoost Classifier has highest model performance of 86.4%. So the model is saved to the file '[XGBoostClassifier.pickle.dat](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques/blob/master/XGBoostClassifier.pickle.dat)'
-
+From the obtained results of the above models, (              THA XAINA          )has highest model performance of (         ). So the model is saved to the file ( MODEL KO LINK)
 ### Next Steps
 
-This project can be further extended to creation of browser extention or developed a GUI which takes the URL and predicts it's nature i.e., legitimate of phishing. *As of now, I am working towards the creation of browser extention for this project. And may even try the GUI option also.* The further developments will be updated at the earliest. 
+This project can be further applied in phishing detection in Websites and their URls.We (the team) have furthur plans to implement this model in web detectioon and many more to make people safe from phishing.
+We want to be the shield that protects common people from all types of phisphing.
