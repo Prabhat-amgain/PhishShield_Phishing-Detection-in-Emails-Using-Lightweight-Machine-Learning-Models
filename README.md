@@ -13,8 +13,8 @@ The above mentioned datasets are uploaded to the '[DataFiles](  HYA DATSET HALNE
 
 ## Members
 Sushovan Bikram Shahi
-[github](https://github.com/sushovanbikramshahi)  
-[LinkedIn](linkedin.com/in/sushovan-bikram-shahi-767202312)
+[github](https://github.com/sushovanbikramshahi)  [LinkedIn](linkedin.com/in/sushovan-bikram-shahi-767202312)
+
 
 Prabhat Amagain
 [github](https://github.com/Prabhat-amgain)  
