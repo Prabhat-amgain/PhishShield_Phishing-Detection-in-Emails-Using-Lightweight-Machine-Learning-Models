@@ -17,8 +17,8 @@ Sushovan Bikram Shahi
 
 
 Prabhat Amagain
-[github](https://github.com/Prabhat-amgain)  
-[LinkedIn](https://www.linkedin.com/in/prabhat-amgain-909363277)
+[github](https://github.com/Prabhat-amgain)  [LinkedIn](https://www.linkedin.com/in/prabhat-amgain-909363277)
+
 
 Puskar Shrestha
 [github](
