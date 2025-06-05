@@ -12,7 +12,10 @@ The set of ligitimate emails are also obtained fron same opensource service.Some
 The above mentioned datasets are uploaded to the '[DataFiles](  HYA DATSET HALNE GITHUB MA PUSH GAREKO )' folder of this repository.
 
 ## Members
-[Sushovan Bikram Shahi](linkedin.com/in/sushovan-bikram-shahi-767202312)
+Sushovan Bikram Shahi
+[github:](https://github.com/sushovanbikramshahi)  
+[LinkedIn:](linkedin.com/in/sushovan-bikram-shahi-767202312)
+
 
 
 ## Feature Extraction
