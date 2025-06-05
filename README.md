@@ -16,10 +16,13 @@ Sushovan Bikram Shahi
 [github](https://github.com/sushovanbikramshahi)  
 [LinkedIn](linkedin.com/in/sushovan-bikram-shahi-767202312)
 
-Prabhat Amaghai
+Prabhat Amagain
 [github](https://github.com/Prabhat-amgain)  
 [LinkedIn](https://www.linkedin.com/in/prabhat-amgain-909363277)
 
+Puskar Shrestha
+[github](
+https://github.com/Puskar-Shrestha)  
 
 
 ## Feature Extraction
