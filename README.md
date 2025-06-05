@@ -4,7 +4,7 @@
 A phishing email is a common social engineering method that mimics trustful uniform emails and their URLs(Uniform Resource Locater). The objective of this project is to train machine learning models and deep neural nets on the dataset created to predict phishing emails. Both phishing and benign content of emails are gathered to form a dataset and from them required URL and email content-based features are extracted. The performance level of each model is measures and compared.
 
 ## Data Collection
-The set of phishing emails are collected from opensource service called **ealvaradob**. This service provide a set of phishing URLs in multiple formats like csv, json etc. that gets updated hourly. To download the data: https:https://huggingface.co/datasets/ealvaradob/phishing-dataset/tree/main. From this dataset, 5000 random phishing emails and their links are collected to train the ML models.
+The set of phishing emails are collected from opensource service called **kaggle**. This service provide a set of phishing URLs in multiple formats like csv, json etc. that gets updated hourly. To download the data: (https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset/data). From this dataset, 5000 random phishing emails and their links are collected to train the ML models.
 
 The set of ligitimate emails are also obtained fron same opensource service.Some of them are also obtained from our(the team) personal emails.
 
