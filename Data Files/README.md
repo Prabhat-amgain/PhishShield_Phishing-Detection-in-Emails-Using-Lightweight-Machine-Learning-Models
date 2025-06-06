@@ -1,1 +1,1 @@
-This dataset is a trimmed version of the original, containing only the most relevant data.For full datset visite the website:https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset/data?select=Ling.csv
+This dataset is a trimmed version of the original, containing only the most relevant data.For full dataset visit the website:https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset/data?select=Ling.csv
