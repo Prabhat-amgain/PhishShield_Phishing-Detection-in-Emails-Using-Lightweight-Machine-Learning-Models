@@ -9,7 +9,7 @@ The set of phishing emails are collected from opensource service called **kaggle
 The set of ligitimate emails are also obtained fron same opensource service.Some of them are also obtained from our(the team) personal emails.
 
 
-The above mentioned datasets are uploaded to the '[DataFiles](  HYA DATSET HALNE GITHUB MA PUSH GAREKO )' folder of this repository.
+The above mentioned datasets are uploaded to the https://github.com/Prabhat-amgain/PhishShield/blob/main/Data%20Files/cleanformodels.csv 
 
 ## Members
 Sushovan Bikram Shahi
