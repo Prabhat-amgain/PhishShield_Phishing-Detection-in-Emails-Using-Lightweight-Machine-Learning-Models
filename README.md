@@ -53,7 +53,7 @@ This data set comes under classification problem, as the input email is classifi
 
 
 All these models are trained on the dataset and evaluation of the model is done with the test dataset. The elaborate details of the models & its training are mentioned in 
-(HYA GITHUB ko TRAINED MODEL KO LINK HALNE)
+https://github.com/Prabhat-amgain/PhishShield/blob/main/Resources/Model_Evaluation.pdf
 
 ## Presentation
 
