@@ -21,7 +21,8 @@ Prabhat Amagain
 
 
 Puskar Shrestha
-[Github](https://github.com/Puskar-Shrestha)  
+[Github](https://github.com/Puskar-Shrestha) /[LinkedIn](https://www.linkedin.com/in/puskar-shrestha-6a112336a/)
+
 
 
 
@@ -60,7 +61,7 @@ All these models are trained on the dataset and evaluation of the model is done 
 The presentation is given in (HYA PRESENTATION KO LINK HALNE)
 
 ## End Results
-From the obtained results of the above models, (              THA XAINA          )has highest model performance of (         ). So the model is saved to the file ( MODEL KO LINK)
+From the obtained results of the above models,Support Vector Machines(SVM) has highest model performance. So the result analysis is given 
 ### Next Steps
 
 This project can be further applied in phishing detection in Websites and their URls.We (the team) have furthur plans to implement this model in web detectioon and many more to make people safe from phishing.
