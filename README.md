@@ -58,10 +58,10 @@ https://github.com/Prabhat-amgain/PhishShield/blob/main/Resources/Model_Evaluati
 ## Presentation
 
 
-The presentation is given in (HYA PRESENTATION KO LINK HALNE)
+The presentation is given in https://github.com/Prabhat-amgain/PhishShield/blob/main/Resources/PhishShieldAnalysis.pdf
 
 ## End Results
-From the obtained results of the above models,Support Vector Machines(SVM) has highest model performance. So the result analysis is given 
+From the obtained results of the above models,Support Vector Machines(SVM) has highest model performance.
 ### Next Steps
 
 This project can be further applied in phishing detection in Websites and their URls.We (the team) have furthur plans to implement this model in web detectioon and many more to make people safe from phishing.
