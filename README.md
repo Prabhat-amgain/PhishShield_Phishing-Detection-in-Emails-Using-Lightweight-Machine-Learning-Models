@@ -4,7 +4,7 @@
 A phishing email is a common social engineering method that mimics trustworthy email addresses and content to deceive recipients.The objective of this project is to train machine learning models on a curated dataset to predict phishing emails. Both phishing and legitimate emails are collected to form the dataset, and from them, relevant features based on email headers, content, and metadata are extracted. The performance of each model is measured and compared to evaluate their effectiveness in detecting phishing emails.
 
 ## Data Collection
-The set of phishing emails are collected from opensource service called **kaggle**. This service provide a set of phishing URLs in multiple formats like csv, json etc. that gets updated hourly. To download the data: (https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset/data). From this dataset, 5000 random phishing emails and their links are collected to train the ML models.
+The set of phishing emails are collected from opensource service called **kaggle**. This service provide a set of phishing URLs in multiple formats like csv, json etc. that gets updated hourly. To download the data: (https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset/data). 
 
 The set of ligitimate emails are also obtained fron same opensource service.Some of them are also obtained from our(the team) personal emails.
 
